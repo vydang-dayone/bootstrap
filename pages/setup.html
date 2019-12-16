@@ -1,35 +1,87 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="shortcut icon" type="image/png" href="/static/images/logo.png"/>
-    <link rel="stylesheet" type="text/css" href="/static/styles.css">
-    <link rel="stylesheet" type="text/css" href="/static/bootstrap-4.3.1-dist/css/bootstrap.min.css">
-    <script type="text/javascript" src="/static/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>    
-  </head>
-  <body>
-    <div class="shadow p-3 bg-white sticky-top ">
-      <span class="logo p-2">B</span>
-      <span class="title"">Bootstrap</span>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" type="image/png" href="/static/images/logo.png" />
+  <link rel="stylesheet" type="text/css" href="/static/styles.css">
+  <link rel="stylesheet" type="text/css" href="/static/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+  <script type="text/javascript" src="/static/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="shadow p-3 bg-white sticky-top ">
+    <span class="logo p-2">B</span>
+    <span class="title"">Bootstrap</span>
+      <i>vs. 4.3.1</i>
     </div>
-    <div class="mx-2">
+    <div class=" mx-2">
       <div class="row">
         <div class="col-2 menu shadow">
-          <div class="nav flex-column nav-pills mt-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-            <a class="nav-link link" href="/">Thành Viên</a>
-            <a class="nav-link link-active" href="/setup">Cài Đặt</a>
-            <a class="nav-link link" href="#v-pills-profile1">Bố Trí</a>
-            <a class="nav-link link" href="#v-pills-profile1">Lưu ý</a>
-            <a class="nav-link link" href="#v-pills-profile1">Plugin vsCode</a>
-            <a class="nav-link link" href="#v-pills-profile2">Theme</a>
+          <div class="position-fixed nav flex-column nav-pills mt-3" id="v-pills-tab" role="tablist"
+            aria-orientation="vertical">
+            <a class="nav-link link" href="/">Introduce</a>
+            <a class="nav-link link-active" href="/setup">Setup</a>
+            <a class="nav-link link" href="/layout">Layout</a>
+            <a class="nav-link link" href="/content">Content</a>
+            <a class="nav-link link" href="/components">Components</a>
+            <a class="nav-link link" href="/utilities">Utilities</a>
+            <a class="nav-link link" href="/extend">Extend</a>
           </div>
         </div>
         <div class="col-10">
-          <div class="tab-content content mt-3">
-            vy
+          <div class="tab-content content mt-4">
+            <div>
+              Into your
+              <span class="highlight">
+                &lt;head&gt;
+              </span>
+            </div>
+            <ol class="mt-3">
+              <li>Online</li>
+              <div>
+                <div>
+                  CDN (Content Delivery Network)
+                </div>
+                <div class="code">
+                  <pre>
+                    &lt;link rel="stylesheet" type="text/css" href="<b>/static/bootstrap-4.3.1-dist/css/bootstrap.min.css</b>">"&gt;
+                  </pre>
+                </div>
+                <div class="code">
+                  <pre>
+                      &lt;script src="<b>https://code.jquery.com/jquery-3.3.1.slim.min.js</b>"&gt;&lt;/script&gt;
+                      &lt;script src="<b>https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js</b>"&gt;&lt;/script&gt;
+                      &lt;script src="<b>https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js</b>"&gt;&lt;/script&gt;
+                  </pre>
+                </div>
+              </div>
+              <li>Offline</li>
+              <div>
+                Download
+                <p class="link-http">
+                  https://getbootstrap.com/docs/4.3/getting-started/download/
+                </p>
+              </div>
+              <div class="code">
+                <pre>
+                    &lt;link rel="stylesheet" href="<b>https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css</b>"&gt;
+                  </pre>
+              </div>
+              <div class="code">
+                <pre>
+                      &lt;script type="text/javascript" src="<b>/static/bootstrap-4.3.1-dist/js/bootstrap.min.js</b>"&gt;&lt;/script&gt;
+                  </pre>
+              </div>
+              <div>
+
+              </div>
+            </ol>
+            <div class="footer" />
           </div>
         </div>
       </div>
-    </div>
-  </body>
+  </div>
+</body>
+
 </html>

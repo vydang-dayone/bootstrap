@@ -17,12 +17,8 @@ body {
   font-weight: bold;
 }
 
-.menu {
-  height: 100vh;
-}
-
 .link-active {
-  background-color: #553d7c;
+  background-color: #01aeef;
   color: white;
   font-weight: bold;
 }
@@ -37,4 +33,29 @@ body {
 
 .content {
   font-size: 18px;
+}
+
+.code {
+  background-color: #e0ecf9;
+  margin: 20px;
+  padding-top: 5px;
+  border-radius: 5px;
+}
+
+.highlight {
+  color: #da5369;
+}
+
+.link-http {
+  color: #4266b2;
+  text-decoration: underline;
+}
+
+li {
+  font-size: 22px;
+  color: #01aeef;
+}
+
+.footer {
+  height: 200px;
 }
