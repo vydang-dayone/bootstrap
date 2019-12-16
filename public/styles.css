@@ -1,0 +1,40 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+  background-color: #553d7c;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.title {
+  color: #553d7c;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.menu {
+  height: 100vh;
+}
+
+.link-active {
+  background-color: #553d7c;
+  color: white;
+  font-weight: bold;
+}
+
+.link {
+  color: black;
+}
+
+.avatar {
+  height: 150px;
+}
+
+.content {
+  font-size: 18px;
+}

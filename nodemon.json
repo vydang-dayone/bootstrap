@@ -1,0 +1,8 @@
+{
+  "watch": [
+    "pages",
+    "public",
+    "server.js"
+  ],
+  "ignore": []
+}
