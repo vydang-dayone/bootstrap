@@ -8,8 +8,7 @@ const setupPage = '/pages/setup.html';
 const layoutPage = '/pages/layout.html';
 const contentPage = '/pages/content.html';
 const componentsPage = '/pages/components.html';
-const utilitiesPage = '/pages/utilities.html';
-const extendPage = '/pages/extend.html';
+const applicationPage = '/pages/application.html';
 
 
 app.use('/static', express.static('public'));
@@ -34,12 +33,8 @@ app.get('/components', function(req, res){
   res.sendFile(__dirname + componentsPage);
 });
 
-app.get('/utilities', function(req, res){
-  res.sendFile(__dirname + utilitiesPage);
-});
-
-app.get('/extend', function(req, res){
-  res.sendFile(__dirname + extendPage);
+app.get('/application', function(req, res){
+  res.sendFile(__dirname + applicationPage);
 });
 
 
